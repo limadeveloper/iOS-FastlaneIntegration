@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					4E8AB6C51EB57F630046DF4E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = G9572JBENB;
 						ProvisioningStyle = Automatic;
 					};
 					4EB68D6F1EB6C67000AF8586 = {
@@ -422,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G9572JBENB;
 				INFOPLIST_FILE = iOSFastlaneIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.limadeveloper.tests.iosfastlaneintegration;
@@ -434,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G9572JBENB;
 				INFOPLIST_FILE = iOSFastlaneIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.limadeveloper.tests.iosfastlaneintegration;
