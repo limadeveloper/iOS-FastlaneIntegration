@@ -19,8 +19,8 @@ platform :ios do
 
 	before_all do
     ENV["FASTLANE_XCODE_LIST_TIMEOUT"] = "180"
-    cocoapods
-    #reset_simulators
+    # cocoapods
+    # reset_simulators
   end
 
 	lane :tests do

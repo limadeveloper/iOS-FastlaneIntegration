@@ -12,7 +12,26 @@
 		4E8AB6CF1EB57F630046DF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AB6CD1EB57F630046DF4E /* Main.storyboard */; };
 		4E8AB6D11EB57F630046DF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AB6D01EB57F630046DF4E /* Assets.xcassets */; };
 		4E8AB6D41EB57F630046DF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AB6D21EB57F630046DF4E /* LaunchScreen.storyboard */; };
+		4EB68D731EB6C67000AF8586 /* iOSFastlaneIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB68D721EB6C67000AF8586 /* iOSFastlaneIntegrationTests.swift */; };
+		4EB68D811EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB68D801EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB68D751EB6C67000AF8586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8AB6BE1EB57F630046DF4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8AB6C51EB57F630046DF4E;
+			remoteInfo = iOSFastlaneIntegration;
+		};
+		4EB68D831EB6C67C00AF8586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8AB6BE1EB57F630046DF4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8AB6C51EB57F630046DF4E;
+			remoteInfo = iOSFastlaneIntegration;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4E8AB6C61EB57F630046DF4E /* iOSFastlaneIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFastlaneIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +41,30 @@
 		4E8AB6D01EB57F630046DF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E8AB6D31EB57F630046DF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E8AB6D51EB57F630046DF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB68D701EB6C67000AF8586 /* iOSFastlaneIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFastlaneIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB68D721EB6C67000AF8586 /* iOSFastlaneIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFastlaneIntegrationTests.swift; sourceTree = "<group>"; };
+		4EB68D741EB6C67000AF8586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB68D7E1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFastlaneIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB68D801EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFastlaneIntegrationUITests.swift; sourceTree = "<group>"; };
+		4EB68D821EB6C67C00AF8586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4E8AB6C31EB57F630046DF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB68D6D1EB6C67000AF8586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB68D7B1EB6C67C00AF8586 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				4E8AB6C81EB57F630046DF4E /* iOSFastlaneIntegration */,
+				4EB68D711EB6C67000AF8586 /* iOSFastlaneIntegrationTests */,
+				4EB68D7F1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests */,
 				4E8AB6C71EB57F630046DF4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				4E8AB6C61EB57F630046DF4E /* iOSFastlaneIntegration.app */,
+				4EB68D701EB6C67000AF8586 /* iOSFastlaneIntegrationTests.xctest */,
+				4EB68D7E1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +105,24 @@
 				4E8AB6D01EB57F630046DF4E /* Assets.xcassets */,
 			);
 			path = iOSFastlaneIntegration;
+			sourceTree = "<group>";
+		};
+		4EB68D711EB6C67000AF8586 /* iOSFastlaneIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EB68D721EB6C67000AF8586 /* iOSFastlaneIntegrationTests.swift */,
+				4EB68D741EB6C67000AF8586 /* Info.plist */,
+			);
+			path = iOSFastlaneIntegrationTests;
+			sourceTree = "<group>";
+		};
+		4EB68D7F1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EB68D801EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift */,
+				4EB68D821EB6C67C00AF8586 /* Info.plist */,
+			);
+			path = iOSFastlaneIntegrationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +145,42 @@
 			productReference = 4E8AB6C61EB57F630046DF4E /* iOSFastlaneIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4EB68D6F1EB6C67000AF8586 /* iOSFastlaneIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB68D791EB6C67000AF8586 /* Build configuration list for PBXNativeTarget "iOSFastlaneIntegrationTests" */;
+			buildPhases = (
+				4EB68D6C1EB6C67000AF8586 /* Sources */,
+				4EB68D6D1EB6C67000AF8586 /* Frameworks */,
+				4EB68D6E1EB6C67000AF8586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB68D761EB6C67000AF8586 /* PBXTargetDependency */,
+			);
+			name = iOSFastlaneIntegrationTests;
+			productName = iOSFastlaneIntegrationTests;
+			productReference = 4EB68D701EB6C67000AF8586 /* iOSFastlaneIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EB68D7D1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB68D851EB6C67C00AF8586 /* Build configuration list for PBXNativeTarget "iOSFastlaneIntegrationUITests" */;
+			buildPhases = (
+				4EB68D7A1EB6C67C00AF8586 /* Sources */,
+				4EB68D7B1EB6C67C00AF8586 /* Frameworks */,
+				4EB68D7C1EB6C67C00AF8586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB68D841EB6C67C00AF8586 /* PBXTargetDependency */,
+			);
+			name = iOSFastlaneIntegrationUITests;
+			productName = iOSFastlaneIntegrationUITests;
+			productReference = 4EB68D7E1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +194,16 @@
 					4E8AB6C51EB57F630046DF4E = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
+					};
+					4EB68D6F1EB6C67000AF8586 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E8AB6C51EB57F630046DF4E;
+					};
+					4EB68D7D1EB6C67C00AF8586 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E8AB6C51EB57F630046DF4E;
 					};
 				};
 			};
@@ -114,6 +221,8 @@
 			projectRoot = "";
 			targets = (
 				4E8AB6C51EB57F630046DF4E /* iOSFastlaneIntegration */,
+				4EB68D6F1EB6C67000AF8586 /* iOSFastlaneIntegrationTests */,
+				4EB68D7D1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +238,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EB68D6E1EB6C67000AF8586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB68D7C1EB6C67C00AF8586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,7 +264,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EB68D6C1EB6C67000AF8586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB68D731EB6C67000AF8586 /* iOSFastlaneIntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB68D7A1EB6C67C00AF8586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB68D811EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EB68D761EB6C67000AF8586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8AB6C51EB57F630046DF4E /* iOSFastlaneIntegration */;
+			targetProxy = 4EB68D751EB6C67000AF8586 /* PBXContainerItemProxy */;
+		};
+		4EB68D841EB6C67C00AF8586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8AB6C51EB57F630046DF4E /* iOSFastlaneIntegration */;
+			targetProxy = 4EB68D831EB6C67C00AF8586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E8AB6CD1EB57F630046DF4E /* Main.storyboard */ = {
@@ -282,6 +434,60 @@
 			};
 			name = Release;
 		};
+		4EB68D771EB6C67000AF8586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSFastlaneIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.limadeveloper.tests.iOSFastlaneIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSFastlaneIntegration.app/iOSFastlaneIntegration";
+			};
+			name = Debug;
+		};
+		4EB68D781EB6C67000AF8586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSFastlaneIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.limadeveloper.tests.iOSFastlaneIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSFastlaneIntegration.app/iOSFastlaneIntegration";
+			};
+			name = Release;
+		};
+		4EB68D861EB6C67C00AF8586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSFastlaneIntegrationUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.limadeveloper.tests.iOSFastlaneIntegrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSFastlaneIntegration;
+			};
+			name = Debug;
+		};
+		4EB68D871EB6C67C00AF8586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSFastlaneIntegrationUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.limadeveloper.tests.iOSFastlaneIntegrationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSFastlaneIntegration;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -299,6 +505,23 @@
 			buildConfigurations = (
 				4E8AB6D91EB57F630046DF4E /* Debug */,
 				4E8AB6DA1EB57F630046DF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB68D791EB6C67000AF8586 /* Build configuration list for PBXNativeTarget "iOSFastlaneIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB68D771EB6C67000AF8586 /* Debug */,
+				4EB68D781EB6C67000AF8586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EB68D851EB6C67C00AF8586 /* Build configuration list for PBXNativeTarget "iOSFastlaneIntegrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB68D861EB6C67C00AF8586 /* Debug */,
+				4EB68D871EB6C67C00AF8586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
