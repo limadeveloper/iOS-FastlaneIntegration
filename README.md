@@ -1,5 +1,13 @@
 # README
 
+## Swift
+- Xcode 8.3.2
+- Swift 3.1
+
+## Objective-C
+- Xcode 8.3.2
+
+
 https://fastlane.tools
 
 ## To start
