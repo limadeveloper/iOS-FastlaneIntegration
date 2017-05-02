@@ -21,39 +21,39 @@ https://fastlane.tools
 ## Files that you need to change
 Appfile
 <p align="left">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Appfile/01.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Appfile/01.png" width="450">
 </p>
 <br>
 
 Fastfile
 <p align="left">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Fastfile/01.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Fastfile/01.png" width="450">
 </p>
 <br>
 
 Scanfile
 <p align="left">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Scanfile/01.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Scanfile/01.png" width="450">
 </p>
 <br>
 
 Gymfile
 <p align="left">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Gymfile/01.png" width="450">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Gymfile/02.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Gymfile/01.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Gymfile/02.png" width="450">
 </p>
 <br>
 
 Deliverfile
 <p align="left">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Deliverfile/01.png" width="450">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Deliverfile/02.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Deliverfile/01.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Deliverfile/02.png" width="450">
 </p>
 <br>
 
 Snapfile
 <p align="left">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Snapfile/01.png" width="450">
-<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Docs/images/Snapfile/02.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Snapfile/01.png" width="450">
+<img src="https://github.com/limadeveloper/iOS-FastlaneIntegration/blob/master/Swift/Docs/images/Snapfile/02.png" width="450">
 </p>
 <br>
