@@ -1,0 +1,32 @@
+##################### More Options ######################
+# If you want to have even more control, check out the documentation
+# https://github.com/fastlane/fastlane/blob/master/deliver/Deliverfile.md
+
+
+###################### Automatically generated ######################
+# Feel free to remove the following line if you use fastlane (which you should)
+
+app_identifier "" # The bundle identifier of your app
+username "" # your Apple ID email
+
+ipa "./fastlane/builds/YourAppTarget.ipa" 
+app_version ""
+screenshots_path "./fastlane/screenshots"
+metadata_path "./fastlane/metadata"
+price_tier 0
+
+app_review_information(
+  first_name: "", # your first name
+  last_name: "", # your last name
+  phone_number: "+00 00000000000", # your phone number
+  email_address: "", # your contact email
+  demo_user: "", # the username if your app needs login
+  demo_password: "", # the password if your app needs login
+  notes: ""
+)
+
+automatic_release true
+
+submit_for_review false
+
+app_icon './fastlane/builds/AppIcon.png' # the icon of your app with size 1024x1024 pixels
