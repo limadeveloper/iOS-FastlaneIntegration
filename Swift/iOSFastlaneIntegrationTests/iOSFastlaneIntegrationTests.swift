@@ -24,7 +24,7 @@ class iOSFastlaneIntegrationTests: XCTestCase {
     }
     
     func testGetData() {
-        XCTAssert(model.getData().count > 0)
+        XCTAssert((model.getData() ?? []).count > 0)
     }
     
     func testPerformanceExample() {

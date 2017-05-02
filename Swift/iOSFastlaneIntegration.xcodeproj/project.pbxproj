@@ -16,6 +16,8 @@
 		4E8B39511EB7723D004946C7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B39501EB7723D004946C7 /* Model.swift */; };
 		4EB68D731EB6C67000AF8586 /* iOSFastlaneIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB68D721EB6C67000AF8586 /* iOSFastlaneIntegrationTests.swift */; };
 		4EB68D811EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB68D801EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift */; };
+		4ED602201EB8A21200BB3F84 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED6021F1EB8A21200BB3F84 /* Global.swift */; };
+		4ED602221EB8A7EE00BB3F84 /* jedi.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ED602211EB8A7EE00BB3F84 /* jedi.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4EB68D7E1EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFastlaneIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB68D801EB6C67C00AF8586 /* iOSFastlaneIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFastlaneIntegrationUITests.swift; sourceTree = "<group>"; };
 		4EB68D821EB6C67C00AF8586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED6021F1EB8A21200BB3F84 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4ED602211EB8A7EE00BB3F84 /* jedi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jedi.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				4E8AB6C91EB57F630046DF4E /* AppDelegate.swift */,
 				4E8AB6CB1EB57F630046DF4E /* HomeViewController.swift */,
 				4E8B39501EB7723D004946C7 /* Model.swift */,
+				4ED6021F1EB8A21200BB3F84 /* Global.swift */,
 				4E8AB6CD1EB57F630046DF4E /* Main.storyboard */,
 				4E8AB6D21EB57F630046DF4E /* LaunchScreen.storyboard */,
+				4ED602211EB8A7EE00BB3F84 /* jedi.json */,
 				4E8AB6D51EB57F630046DF4E /* Info.plist */,
 				4E8AB6D01EB57F630046DF4E /* Assets.xcassets */,
 			);
@@ -240,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8AB6D41EB57F630046DF4E /* LaunchScreen.storyboard in Resources */,
+				4ED602221EB8A7EE00BB3F84 /* jedi.json in Resources */,
 				4E8AB6D11EB57F630046DF4E /* Assets.xcassets in Resources */,
 				4E8AB6CF1EB57F630046DF4E /* Main.storyboard in Resources */,
 			);
@@ -266,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED602201EB8A21200BB3F84 /* Global.swift in Sources */,
 				4E8B39511EB7723D004946C7 /* Model.swift in Sources */,
 				4E8AB6CC1EB57F630046DF4E /* HomeViewController.swift in Sources */,
 				4E8AB6CA1EB57F630046DF4E /* AppDelegate.swift in Sources */,

@@ -43,7 +43,8 @@ class HomeViewController: UIViewController {
     }
     
     fileprivate func getData() {
-        data = model.getData()
+        guard let data = model.getData(), data.count > 0 else { return }
+        self.data = data
         refreshControll.endRefreshing()
     }
     
